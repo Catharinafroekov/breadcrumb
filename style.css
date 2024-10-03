@@ -1,0 +1,30 @@
+button{
+    background-color: rgb(197, 232, 234);
+    color: rgb(36, 21, 12);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(147, 147, 201);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 5px;
+}
+
+nav ul li:not(:last-child)::after {
+    content: '/';
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
